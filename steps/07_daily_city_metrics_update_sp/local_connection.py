@@ -7,7 +7,7 @@ import toml
 
 
 def get_dev_config(
-    environment: str = 'dev',
+    environment: str = 'hol',
     app_config_path: Path = Path.cwd().joinpath('app.toml'),
 ) -> dict:
     try:
